@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  position: fixed;
+  top: 0;
+  justify-content: space-between;
+  height: 160px;
+  width: 100%;
+  background: linear-gradient(to right, #03001e, #7303c0, #ec38bc, #fdeff9);
+  color: rgb(240, 236, 236);
+}
+.logo {
+  height: 140px;
+  width: 200px;
+  background-image: url(seo-and-web.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 2%;
+}
+.logo_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+.logo_text :first-child {
+  text-transform: uppercase;
+  color: aquamarine;
+  letter-spacing: 4px;
+  font-family: "Bangers", cursive;
+}
+.logo_text :last-child {
+  font-family: "Courier New", Courier, monospace;
+  color: aquamarine;
+}
+
+.contacts_info {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.contacts {
+  list-style-type: none;
+}
+.contacts li {
+  display: inline-flex;
+  flex-direction: row;
+  color: white;
+  margin-right: 20px;
+  font-size: 18px;
+  font-family: "roboto";
+}
+.contacts span {
+  display: block;
+  color: #2d09f1fa;
+  padding: 0 10px;
+  font-style: italic;
+  font-weight: 800;
+}
+.link {
+  text-decoration: none;
+}
+main {
+  display: flex;
+
+  width: 80%;
+  margin-top: 165px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.content {
+  width: 50%;
+  background-color: #8befbf;
+  border-radius: 15px;
+  padding: 4%;
+}
+.sidebar {
+  width: 50%;
+  height: 500px;
+  position: sticky;
+  top: 20%;
+  display: flex;
+  flex-direction: column;
+}
+.about_information {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: space-around;
+  height: inherit;
+}
+.about_information a {
+  display: block;
+  text-decoration: none;
+  color: darkviolet;
+  font-size: 20px;
+  padding: 2% 80px;
+  background-color: lightblue;
+  border-radius: 15px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.about_information a:hover {
+  color: white;
+  background-color: blueviolet;
+}
+h3 {
+  color: peru;
+  font-size: 32px;
+  font-weight: 700;
+  margin: 2%;
+}
+.prg_content {
+  font-size: 25px;
+  line-height: 1.6;
+}
+footer {
+  height: 150px;
+  width: 100%;
+  background-color: royalblue;
+  display: flex;
+  padding-left: 100px;
+  padding-top: 20px;
+}
